@@ -8,10 +8,8 @@
 import Foundation
 import FirebaseAnalytics
 
-/// A wrapper around Firebase Analytics providing event tracking and screen tracking functionality
 public final class AnalyticsManager: Sendable {
     
-    /// Shared singleton instance
     public static let shared = AnalyticsManager()
     
     private init() {}
